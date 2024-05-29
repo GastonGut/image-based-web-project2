@@ -1,3 +1,17 @@
 body{
     background-color:#CED6F0;
 }
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: solid 1px black;
+    margin-top: 12%;
+    margin-bottom: 16%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+ 
+}
