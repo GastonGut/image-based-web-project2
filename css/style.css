@@ -12,7 +12,7 @@ body{
 }
 
 .centrado{
-    height: 120vh;
+    height: 130vh;
     margin-top: 12%;
     margin-bottom: 12%;
     margin-left: 5%;
@@ -50,13 +50,12 @@ body{
     margin-top: -5%;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 3%;
     
 }
 
 .item{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10% 10%;
+    padding: 11% 11%;
     font-size: 100%;
 }
 
@@ -66,5 +65,11 @@ body{
 }
 
 .itemh3{
-    margin-top: 25%;
+    margin-top: 5%;
+}
+ 
+.imgs{
+    background-color: #4269E2;
+    border-radius: 100%;
+    padding: 1%
 }
