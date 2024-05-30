@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 body{
     background-color:#CED6F0;
 }
 
 .centrado{
-    height: 110vh;
+    height: 120vh;
     margin-top: 12%;
     margin-bottom: 12%;
     margin-left: 5%;
@@ -12,15 +21,32 @@ body{
     border-radius: 15px;
 }
 
+.color{
+    margin-top: 5%;
+    color:blue;
+    
+}
+
 .text{
-    border: solid 1px black;
     width: 100%;
     height: 35%;
+    padding: 12px;
     text-align: center;
+}
+
+.mc1{
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+.mc2{
+    margin-top: -2%;
+
 }
 
 .oferts{
     border: solid 1px black;
     width: 100%;
-    height: 64%;
+    height: 61%;
+    display: flex;
 }
