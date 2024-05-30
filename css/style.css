@@ -46,7 +46,8 @@ body{
 
 .oferts{
     width: 100%;
-    height: 65%;
+    height: 15%;
+    margin-top: -5%;
     display: grid;
     grid-template-columns: auto auto auto;
     
@@ -55,8 +56,15 @@ body{
 .item{
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    padding: 10% 10%;
+    font-size: 100%;
 }
 
+.item-p{
+    margin-top: -5%;
+    font-size: 90%;
+}
+
+.itemh3{
+    margin-top: 25%;
+}
